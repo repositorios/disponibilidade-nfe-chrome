@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Opções da extensão Disponibilidade NF-e</title>
+</head>
+<body>
+    <div class="body">
+        <h2>Opções da extensão Disponibilidade NF-e</h2>
+        <p class="headline">Escolha as configurações abaixo que mais lhe agradam:</p>
+
+        <div class="notifications">
+            <label for="alerts">Habilitar Notificações</label>
+            <select id="alerts">
+                <option value="S">SIM</option>
+                <option value="N">NÃO</option>
+            </select>
+        </div>
+        <div class="states">
+            <p>Escolha os estados que gostaria de receber alertas:</p>
+            <div>
+                <input name="states" type="checkbox" id="AM" value="AM"/>
+                <label for="states">AM</label>
+            </div>
+            <div>
+                <input name="states" type="checkbox" id="BA" value="BA"/>
+                <label for="states">BA</label>
+            </div>
+            <div>
+                <input name="states" type="checkbox" id="CE" value="CE"/>
+                <label for="states">CE</label>
+            </div>
+            <div>
+                <input name="states" type="checkbox" id="GO" value="GO"/>
+                <label for="states">GO</label>
+            </div>
+            <div>
+                <input name="states" type="checkbox" id="MG" value="MG"/>
+                <label for="states">MG</label>
+            </div>
+            <div>
+                <input name="states" type="checkbox" id="MS" value="MS"/>
+                <label for="states">MS</label>
+            </div>
+            <div>
+                <input name="states" type="checkbox" id="MT" value="MT"/>
+                <label for="states">MT</label>
+            </div>
+            <div>
+                <input name="states" type="checkbox" id="PE" value="PE"/>
+                <label for="states">PE</label>
+            </div>
+            <div>
+                <input name="states" type="checkbox" id="PR" value="PR"/>
+                <label for="states">PR</label>
+            </div>
+            <div>
+                <input name="states" type="checkbox" id="RS" value="RS"/>
+                <label for="states">RS</label>
+            </div>
+            <div>
+                <input name="states" type="checkbox" id="SP" value="SP"/>
+                <label for="states">SP</label>
+            </div>
+            <div>
+                <input name="states" type="checkbox" id="SVAN" value="SVAN"/>
+                <label for="states">SVAN</label>
+            </div>
+            <div>
+                <input name="states" type="checkbox" id="SVRS" value="SVRS"/>
+                <label for="states">SVRS</label>
+            </div>
+            <div>
+                <input name="states" type="checkbox" id="SVC-AN" value="SVC-AN"/>
+                <label for="states">SVC-AN</label>
+            </div>
+            <div>
+                <input name="states" type="checkbox" id="SVC-RS" value="SVC-RS"/>
+                <label for="states">SVC-RS</label>
+            </div>
+        </div>
+        <div>
+            <button id="save">Salvar</button>
+            <button id="clear">Resetar configurações</button>
+        </div>
+        <div id="status"></div>
+    </div>
+
+    <script src="options.js"></script>
+</body>
+</html>

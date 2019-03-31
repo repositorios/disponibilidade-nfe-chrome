@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "name": "Consultar Disponibilidade NF-e",
+    "version": "1.0",
+    "description": "Permite a consulta da disponibilidade da NF-e direto do site da Receita Federal",
+    "permissions": [
+        "background", "alarms", "storage", "notifications",
+        "http://134.209.210.149/",
+        "https://134.209.210.149/"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "images/nfe16.png",
+            "32": "images/nfe32.png",
+            "48": "images/nfe48.png",
+            "128": "images/nfe128.png"
+        }
+    },
+    "options_page": "options.html",
+    "icons": {
+        "16": "images/nfe16.png",
+        "32": "images/nfe32.png",
+        "48": "images/nfe48.png",
+        "128": "images/nfe128.png"
+    }
+}
