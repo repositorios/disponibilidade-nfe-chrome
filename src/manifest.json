@@ -2,7 +2,7 @@
     "manifest_version": 2,
     "name": "Consultar Disponibilidade NF-e",
     "version": "1.0",
-    "description": "Permite a consulta da disponibilidade da NFe direto do site da Receita Federal",
+    "description": "Permite a consulta da disponibilidade da NF-e direto do site da Receita Federal",
     "permissions": [
         "background", "alarms", "storage", "notifications",
         "http://134.209.210.149/",
