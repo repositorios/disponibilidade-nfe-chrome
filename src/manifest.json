@@ -5,8 +5,7 @@
     "description": "Permite a consulta da disponibilidade da NF-e direto do site da Receita Federal",
     "permissions": [
         "background", "alarms", "storage", "notifications",
-        "http://134.209.210.149/",
-        "https://134.209.210.149/"
+        "https://nfe.dados.in/"
     ],
     "background": {
         "scripts": [
