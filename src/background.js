@@ -106,7 +106,7 @@ chrome.alarms.onAlarm.addListener(function(alarm) {
 function checkServiceStatusForAlerts() {
 
     let xhr = new XMLHttpRequest();
-    xhr.open("GET", "http://134.209.210.149/disponibilidade-nfe.json");
+    xhr.open("GET", "https://nfe.dados.in/disponibilidade-nfe.json");
     xhr.onreadystatechange = function() {
 
         if (xhr.readyState == 4) {
@@ -147,7 +147,7 @@ function updateBadgeBackgroundColor() {
     let on = 0;
 
     let xhr = new XMLHttpRequest();
-    xhr.open("GET", "http://134.209.210.149/disponibilidade-nfe.json");
+    xhr.open("GET", "https://nfe.dados.in/disponibilidade-nfe.json");
     
     xhr.onreadystatechange = function() {
 
