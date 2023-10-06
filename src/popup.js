@@ -1,6 +1,6 @@
 /**
  * Monitora a disponibilidade de emissão da Nota Fiscal Eletrônica
- * Copyright (C) 2019  Renato Tavares <dr.renatotavares@gmail.com>
+ * Copyright (C) 2023  Renato Tavares <dr.renatotavares@gmail.com>
  *
  * This program is free software: you can redistribute it and/or modify
  * it under the terms of the GNU Affero General Public License as
